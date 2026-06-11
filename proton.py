@@ -6,7 +6,7 @@ import sys
 # ==============================
 # CONFIGURATION
 # ==============================
-RECONNECT_DELAY = 5        # seconds between disable/enable
+RECONNECT_DELAY = 1       # seconds between disable/enable
 LOOP_INTERVAL = 600        # seconds between reconnect cycles
 LOG_FILE = "proton_reconnect.log"
 SEARCH_KEYWORDS = ["proton", "tap"]  # auto-detect adapter names
